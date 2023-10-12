@@ -1,0 +1,294 @@
+body{
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header-containte {
+	height: 70px;
+	width: 100%;
+	display: flex;
+    color: #777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    position: sticky;
+    top: 0px;
+    background-color: #ffff;
+    
+}
+
+.header-logo-section {
+	height: 100%;
+	width: 15%;
+	padding-top: 15px;
+    margin-right: 50px;
+}
+.header-nav-section {
+	height: 100%;
+	width: 70%;
+	display: flex;
+    
+}
+.menu-nav ul{
+    display: flex;
+    list-style: none;
+    padding: 1px; 
+    
+}
+.menu-nav ul li{
+    margin-left: 40px;
+    text-decoration: none;
+}
+.menu-nav ul li a:after{
+    content: "";
+    position: absolute;
+    background-color: #0088cc;
+    height: 3px;
+    width: 0px;
+    left: 0px;
+    bottom: -15px;
+    transition: 0.05s;   
+}
+.menu-nav ul li a:hover:after{
+    width: 100%;
+
+}
+.menu-nav ul li a{
+    text-decoration: none;
+}
+.social-media-icone-section{
+    height: 100%;
+    width: 15%;
+    display: flex;
+}
+.social-media-icone-section ul{
+    margin-left: 15px;
+    display: flex;
+    list-style: none;
+    padding: 1px; 
+}
+.social-media-icone-section ul li{
+    margin-left: 15px;
+
+}
+.contract-number-section{
+    padding-top: 15px;
+    height: 100%;
+    width: 15%; 
+    margin-left: 15px;
+}
+
+.Home-aria-container{
+    height: 650PX;
+    width: 100%;
+    background: url(../images/morphing-bg-1.jpg) no-repeat center center/cover; 
+}
+.Home-containte {
+	padding-top: 120PX;
+	padding-left: 60PX;
+}
+.btn{
+    text-decoration: none;
+    background: linear-gradient(135deg,#00a1f2 0%,#7571fd 80%);
+    font-size: 13px;
+    padding: 10px 25px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.about-aria-conteiner{
+    height: 650PX;
+    width: 100%;
+    display: flex;  
+}
+.img-section{
+    height: 650PX;
+    width: 50%;
+    background: url(../images/about-us-1.png) no-repeat center center/cover;
+}
+.about-conteinte{
+    height: 650PX;
+    width: 50%;
+    padding-top: 120PX;
+	padding-left: 60PX;
+}
+.team-aria-container{
+    height: 680PX;
+    width: 100%;
+    background-color:#eff1f3;
+}
+.team-conteinte{
+    height: 300px;
+    width: 100%;
+    text-align: center;   
+}
+.team-text{
+    padding-top: 110px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.team-conteinte h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.team-conteinte p {
+	font-size: 12px;
+	padding-left: 12%;
+	padding-right: 12%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-efect-aria{
+    height: 350px;
+    width: 100%;
+}
+.card-sceling{
+    margin:10px;
+    height: 332px;
+    width: 230px;
+    box-sizing:border-box;
+    overflow:hidden;	
+    float:left;	
+    padding:10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.card img{
+    width:100%;
+	transition:0.5s;
+}
+.card {
+	padding:7px;
+	border-radius:20px;
+	background-color:#ffffff;
+	overflow:hidden;
+}
+.card-img:hover img{
+	transform:scale(1.15);
+}
+.card-img{
+	border-radius:20px;
+	height:200px;
+	overflow:hidden;
+}
+.card-content{
+    text-align: center;
+}
+.card-sceling a{
+    text-decoration: none;
+}
+.card-content h3{
+   margin-top:30px;
+   margin-bottom: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: #212529;  
+}
+.card-content h3:hover{
+    color: #0f08db;
+    transition: 1s;
+}
+.card-content p{
+    margin: 0;
+    color: #969696;
+}
+.work-aria-container{
+    height: 700PX;
+    width: 100%;
+    background-color:#504bfd;
+}
+.work-text-conteinte{
+    height: 30%;
+    width: 100%;     
+}
+.work-text{
+    text-align: center;
+    padding-top: 80px;
+
+}
+.card-efect-aria-product{
+    height: 58%;
+    width: 80%;
+    margin-left: 125px;
+    background-color: #625ef5;
+}
+.work-aria-img-conteiner{
+   
+    padding-top: 30px;
+    margin-left: 40px;
+
+}
+.img-product:hover{
+    transform:scale(1.15);
+    transition: 1s;
+    
+}
+
+
+
+.card-sceling-product{
+    height: 340px;
+    width: 236px;
+    box-sizing: border-box;
+    overflow: hidden;
+    float: left;
+    margin-right: 15px;
+
+}
+.card-sceling-product:hover{
+    box-shadow:0px 0px 50px 5px black ;
+    transition: 0.5s;
+
+}
+
+.slider-point{
+    height: 25%;
+    width: 100%;
+}
+
+.pricing-aria-conteiner{
+    height: 700px;
+    width: 100%;
+    background-color: #ffff;
+}
+.pricing-text-conteinte-aria{
+    height: 30%;
+    width: 100%;
+    background-color:#eff1f3;
+    text-align: center;
+}
+.pricing-section-card-conteiner{
+    height: 70%;
+    width: 100%;
+    background-color:#eff1f3;
+    text-align: center;
+    display: flex;
+}
+.prising-offers-card{
+    height: 450px;
+    width: 235px;
+    text-align: center;
+}
+.card-header{
+    height: 50px;
+    width: 100%;
+    background-color: #eff3fa;
+    text-align: center;
+   
+    
+
+}
+.card-header>h3{
+    color: #999999;
+    font-size: 82px;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: "Poppins", sans-serif;
+   
+
+}
+
+.pricing-ret{
+    font-size: 48px;
+    font-weight: bold;
+}
